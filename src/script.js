@@ -1,3 +1,4 @@
+
 /* This Code designed by https: //naim.vercel.app  ---
  Copyright 2023 By Naim All Rights Reserved.
 Give Me Proper credit when You use this code By unchanging The FOOTER.
@@ -5,7 +6,6 @@ Give Me Proper credit when You use this code By unchanging The FOOTER.
 
 
 
-let btn = document.querySelectorAll(".btn");
 let btn1 = document.querySelector("#btn1");
 let btn2 = document.querySelector("#btn2");
 let btn3 = document.querySelector("#btn3");
@@ -46,4 +46,7 @@ btn3.addEventListener("click", () => {
 })
 clear.addEventListener("click", ()=>{
  textArea.style.display = "none";
+ btn3.style.width = "";
+ btn2.style.width = "";
+ btn1.style.width = "";
 })
