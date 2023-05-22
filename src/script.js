@@ -19,7 +19,7 @@ let textArea = document.querySelector(".textArea");
 
 btn1.addEventListener("click",()=>{
  textClicked.textContent = "You clicked A"
- quote.textContent = "A তে আমব্রেলা";
+ quote.textContent = "A তে আপেল";
  textArea.style.display = "block";
  btn1.style.width = "25%";
  btn2.style.width = "";
